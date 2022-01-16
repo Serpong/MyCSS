@@ -7,7 +7,7 @@ function get_new_el(id, tag){
 	else
 	{
 		el = document.createElement(tag);
-		el.id = ""+id;
+		el.id = id;
 		
 		// document.head.appendChild(el);
 		document.documentElement.appendChild(el);
